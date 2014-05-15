@@ -1,0 +1,108 @@
+api/jiuping/jiuping.sendpost	wine_id=1105749&wine_name=12312&uid=1000120&content=好酒&wine_score=0&price=100
+api/jiuping/jiuping.delete	post	tid=323&uid=323232
+api/jiuping/jiuping.like	post	tid=323&uid=323232&tuid=23233
+api/jiuping/jiuping.like_list	get	uid=1000120
+api/jiuping/jiuping.fetch_list	get	wine_id=1
+api/jiuping/jiuping.exp_list	get	wine_id=1&year=1987
+api/jiuping/jiuping.list_by_year	get	wine_id=1&year=1987
+api/jiuping/jiuping.list_by_score	get	wine_id=1&score=5
+api/jiuping/jiuping.jiuping_count	get	wine_id=1
+api/jiuping/jiuping.bjiuping_count	get	wine_id=1
+api/jiuping/jiuping.get_follow_jiuping	get	uid=1000120
+api/jiuping/jiuping.get_jp_by_uid	get	uid=1000120
+api/jiuping/jiuping.get_follow_wine_jp	get	uid=1000120
+api/jiuping/jiuping.get_jp	get
+api/jiuping/jiuping.jp_info	get	id=8790&uid=1124360
+api/jiuping/wine.wine_info	get	wineid=1
+api/jiuping/wine.bwine_info	get	wineid=1
+api/jiuping/wine.buy_year	get	wineid=1
+api/jiuping/wine.buy_agents	get	wineid=1&year=2001
+api/jiuping/wine.buy_agents_all	get	wineid=1
+api/jiuping/wine.follow_wine	get	wineid=1&uid=1000120&type=2
+api/jiuping/wine.unfollow_wine	get	wineid=1&uid=1000120&type=2
+api/jiuping/wine.region_sale_wines	get	rid=13
+api/jiuping/wine.grape_sale_wines	get	gid=1
+api/jiuping/wine.grape	get
+api/jiuping/wine.country	get
+api/jiuping/wine.winetype	get
+api/jiuping/wine.region	get	countryId=13
+api/jiuping/wine.score	get	keyword=波尔多&year=2001
+api/jiuping/wine.search_sale_wines	get	keyword=波尔多&year=2001&order=desc
+api/jiuping/wine.search_v2	get	keyword=波尔多
+api/jiuping/wine.search_list_v2	get	keyword=波尔多
+api/jiuping/wine.get_winery_img	get	wid=1&num=10
+api/jiuping/wine.is_followed	get	uid=1000120&id=1
+api/jiuping/wine.get_follow_wine	get	uid=1000120&self=1000120
+api/jiuping/wine.get_ids_info	get	ids=1
+api/jiuping/wine.get_ids_info	get	ids=1
+api/jiuping/wine.get_wine_by_param	get	t=1&c=4&g=1&o=4
+api/jiuping/user.get	get	uid=1105749&self=1105749
+api/jiuping/user.update	post	uid=1001233&nickname=test
+api/jiuping/user.search_v2	get	keyword=test
+api/jiuping/user.search	get	keyword=test
+api/jiuping/user.search_list_v2	get	keyword=test
+api/jiuping/user.follow_list	get	uid=1000120&self=1000120
+api/jiuping/user.fans_list	get	uid=1000120&self=1000120
+api/jiuping/user.follow	post	uid=1000120&follow_uid=1124360
+api/jiuping/user.unfollow	post	uid=1000120&follow_uid=1124360
+api/jiuping/user.follow	post	uid=1000120&follow_uid=1124360
+api/jiuping/user.unfans	post	uid=1124360&fans_uid=1000120
+api/jiuping/user.feedback	post	uid=1124360&touid=1000120&content=酒
+api/jiuping/user.wine_list_by_recommend	get
+api/jiuping/user.user_list_by_most_jiuping	get
+api/jiuping/user.follow_shop	post	uid=1130822&shop_id=1
+api/jiuping/user.get_follow_shops	get	uid=1130822&self=1130822
+api/jiuping/user.get_comments	get	uid=1130822&self=1130822
+api/jiuping/user.unfollow_shop	post	uid=1130822&shop_id=1
+api/jiuping/msg.publish_msgpost	uid=1123028&touid=1130822&msg=test
+api/jiuping/msg.get_msg	get	uid=1123028&to_uid=1130822
+api/jiuping/msg.get_msg_list	get	uid=1123028
+api/jiuping/msg.drop_list       post	uid=1123028
+api/location/shop.get_city_list	get
+api/location/shop.get_list_v2	get	latitude=32&longitude=121.01&range=100&page=1&city=上海
+api/location/shop.detail	get	shop_id=1&uid=1123028
+api/location/shop.get_comment_by_shop	get	shop_id=1
+api/location/shop.send_comment	post	shop_id=1&uid=1123028&uname=骷髅头&service=10&complex=10&env=10&comment=very good!very good!very good!very good!
+api/location/shop.report	post	uid=1123028&uname=骷髅头&shop_id=1&error_type=1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
